@@ -29,3 +29,44 @@ th {
 select option{
   font-weight: bolder!important;
 }
+
+.custom-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  z-index: 9999;
+  background-color: aliceblue;
+  cursor:pointer;
+  border-radius: 10px;
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+form label{
+  font-weight: bold;
+}
+form select{
+  font-weight: bold;
+}
+.modal-header {
+  background-color: teal;
+  border-bottom: none;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+.modal-title {
+  font-size: 24px;
+  margin: 0;
+}
+.modal-body {
+  padding: 1.5rem;
+}
